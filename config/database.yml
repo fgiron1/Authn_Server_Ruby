@@ -7,7 +7,7 @@
 default: &default
   host: 000.000.000.000
   adapter: sqlserver
-  mode: odbc
+  mode: dblib
   dsn: dsn_name
   database: db
   username: user

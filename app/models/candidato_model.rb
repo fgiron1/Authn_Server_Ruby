@@ -1,2 +1,0 @@
-class CandidatoModel < ApplicationRecord
-end
