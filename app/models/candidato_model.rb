@@ -1,0 +1,2 @@
+class CandidatoModel < ApplicationRecord
+end

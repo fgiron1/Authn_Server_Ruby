@@ -5,7 +5,13 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  host: 000.000.000.000
+  adapter: sqlserver
+  mode: odbc
+  dsn: dsn_name
+  database: db
+  username: user
+  password: pass
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
